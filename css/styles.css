@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+label {
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #E8E8E8;
+}
+
+input[type=text], select {
+  padding: 15px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #995ee3;
+  color: white;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: #8097e6;
+}
+
+input[type=checkbox] {
+  margin-right: 20px;
+}
+/* div {
+  border-radius: 5px;
+  padding: 20px;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 32%;
+  float: left;
+  margin: 0px 2px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-radius: 7px;
+}
+
+th {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+th {
+  background-color: #858fe5;
+  color: white;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.delete-row {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  background-color: #ff2400;
+  color: white;
+  border-radius: 7.5px;
+}
+
+#bottom-container {
+  height: 200px;
+  position: relative;
+  top: 50%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+footer {
+    bottom: 20px;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer p {
+  text-align: right;
+}
+
+#tables {
+  text-align: center;
+  justify-content:center;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.t_sortable tr, .ui-sortable-helper {
+  cursor: move;
+}
+.t_sortable tr:first-child {
+  cursor: default;
+}
+
+#profile_pic {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+} 
+
+#nav-top {
+  background: white;
+}
